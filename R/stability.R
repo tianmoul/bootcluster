@@ -3,7 +3,10 @@
 #'
 #' Estimate of k-means bootstrapping stability
 #'
-#' @details This function estimates the clustering stability through bootstrapping approach.
+#' @details This function estimates the clustering stability through bootstrapping approach. 
+#' Two schemes are provided. Scheme 1 uses the clustering of the original data as the reference 
+#' for stability calculations. Scheme 2 searches acrossthe clustering samples that gives the 
+#' most stable clustering.
 #'
 #' @param x a \code{data.frame} of the data set
 #' @param k a \code{integer} number of clusters

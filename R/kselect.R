@@ -4,9 +4,11 @@
 #'
 #' @details This function estimates the number of clusters through a bootstrapping
 #' approach, and a measure Smin, which is based on an observation-wise similarity
-#' among clusterings. The number of clusters k is selected as the larges number of
-#' clusters, of which the Smin is greater than a threshold. The threshold is often
-#' between 0.8 ~ 0.9.
+#' among clusterings. The number of clusters k is selected as the largest number of
+#' clusters, for which the Smin is greater than a threshold. The threshold is often
+#' selected between 0.8 ~ 0.9. Two schemes are provided. Scheme 1 uses the clustering
+#' of the original data as the reference for stability calculations. Scheme 2 searches 
+#' acrossthe clustering samples that gives the most stable clustering.
 #'
 #' @param x a \code{data.frame} of the data set
 #' @param range a \code{vector} of \code{integer} values, of the possible numbers of clusters k
