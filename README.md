@@ -7,5 +7,5 @@ This package implements boostrapping estimates for clustering stability. To cite
 To install this package, please use
 ```{r, eval=FALSE}
 library("devtools")
-install_github("hyu-ub/BayesNetBP")
+install_github("hyu-ub/bootcluster")
 ```
